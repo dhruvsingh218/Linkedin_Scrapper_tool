@@ -35,7 +35,7 @@ pip install -r requirements.txt
 pip install selenium 
 pip install requests
 
-#🔐 Manual Login Instructions
+# 🔐 Manual Login Instructions
 Due to LinkedIn's strict policies:
 
 The script will open a Chrome browser.
@@ -44,7 +44,8 @@ Log in manually to LinkedIn (use a real account).
 
 Once logged in and on the search results page, press Enter in the terminal to proceed.
 
-#🌐 Proxy Rotation (Optional)
+
+# 🌐 Proxy Rotation (Optional)
 To use rotating proxies:
 
 Prepare a list of HTTP/S proxies (free or paid).
@@ -61,7 +62,7 @@ Edit
 options.add_argument(f'--proxy-server=http://{proxy}')
 Note: Free proxies often break or get blocked. Use premium rotating proxies for better reliability.
 
-#🧠 How It Works
+# 🧠 How It Works
 Load LinkedIn search results for doctors in India.
 
 Scroll to load full results.
